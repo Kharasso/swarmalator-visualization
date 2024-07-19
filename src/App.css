@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  /* min-width: 450px; */
+  /* min-width: 500px; */
   width: 600px;
   font-size: 14px;
   /* display: flex;
@@ -10,7 +10,7 @@
 
 .App-header {
   /* background-color: #282c34; */
-  padding: 45px;
+  padding: 40px;
   color: white;
 
   /* position: fixed; */
@@ -54,7 +54,7 @@ main {
 #root {
   /* max-width: 1280px; */
   /* margin: 0 auto; */
-  padding: 4rem;
+  padding: 2rem;
   padding-bottom: 0;
   padding-top: 0;
   text-align: center;
@@ -137,5 +137,5 @@ footer {
   text-align: right;
   font-size: 10pt;
   /* right: 0; */
-  transform: translateX(-50%); 
+  /* transform: translateX(-50%);  */
 }

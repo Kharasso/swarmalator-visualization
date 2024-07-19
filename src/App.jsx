@@ -9,7 +9,7 @@ import SwarmalatorFormulae from './components/Formulae';
 
 const viewHeight = window.innerHeight;
 const viewWidth = window.innerWidth;
-const appMinWidth = 450;
+const appMinWidth = 480;
 // const initRadius = Math.min(600, Math.max(450, viewHeight * 0.6));
 const initRadius = Math.min(600, Math.max(450, viewWidth * 0.3));
 const numInitSwarmalators = 600;
@@ -131,7 +131,7 @@ function App() {
 
       <main>
         
-        <div style={{"left": Math.max(viewWidth * 0.3, appMinWidth) + 100}} className="dashboard">
+        <div style={{"left": Math.max(viewWidth * 0.3, appMinWidth) + 50}} className="dashboard">
         {/* <div style={{"left": Math.max(viewWidth * 0.3, appMinWidth) + 100}} className="dashboard"> */}
           <div className="viz-container">
               <SwarmalatorViz initRadius={initRadius} parameters={parameters1} />
@@ -151,7 +151,7 @@ function App() {
 
       </main>
 
-      <footer style={{"left": Math.max(viewWidth * 0.3, appMinWidth) + 675}}>
+      <footer style={{"left": Math.max(viewWidth * 0.3, appMinWidth) + 200}}>
         <p>REFERENCE: <i>O’Keeffe, K.P., & Bettstetter, C. (2019). A review of swarmalators and their potential in bio-inspired computing. Defense + Commercial Sensing.</i></p>
       </footer>
 
