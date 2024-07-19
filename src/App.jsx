@@ -151,7 +151,7 @@ function App() {
 
       </main>
 
-      <footer style={{"left": Math.max(viewWidth * 0.3, appMinWidth) + 175, "maxWidth": 1.6 * initRadius}}>
+      <footer style={{"left": Math.max(viewWidth * 0.3, appMinWidth) + 160, "maxWidth": 1.5 * initRadius}}>
         <p>REFERENCE: <i>O’Keeffe, K.P., & Bettstetter, C. (2019). A review of swarmalators and their potential in bio-inspired computing. Defense + Commercial Sensing.</i></p>
       </footer>
 
