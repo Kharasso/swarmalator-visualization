@@ -12,7 +12,7 @@ const viewWidth = window.innerWidth;
 const appMinWidth = 480;
 // const initRadius = Math.min(600, Math.max(450, viewHeight * 0.6));
 const initRadius = Math.min(600, Math.max(450, viewWidth * 0.3));
-const numInitSwarmalators = 600;
+const numInitSwarmalators = 500;
 const combinationsJK = [{J:1, K:-0.75},
                         {J:1, K:-0.75},
                         {J:0.1, K:1},
