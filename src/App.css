@@ -136,6 +136,7 @@ footer {
   /* width: 100%; */
   text-align: right;
   font-size: 10pt;
+  color: rgba(255, 255, 255, 0.87);
   /* right: 0; */
   /* transform: translateX(-50%);  */
 }
