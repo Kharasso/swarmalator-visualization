@@ -15,7 +15,7 @@ const generateSwarmalators = (num) => {
           x: r * Math.cos(theta) ,
           y: r * Math.sin(theta),
           phase: Math.random() * 2 * Math.PI,
-          omega: 0.25 * Math.PI ,
+          omega: 0.05 * Math.PI ,
         }
       });
   };
