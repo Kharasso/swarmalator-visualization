@@ -61,7 +61,7 @@ function App() {
   return (
     <div style={{"width": viewWidth * 0.3, "minWidth": appMinWidth}} className="App">
       <header className="App-header">
-        <h1>SWARMALATORS VISUALIZED</h1>
+        <h1>SWARMALATORS</h1>
         <h2>Background</h2>
         <p>
           The swarm behavior is the collective motion of a large number of self-propelled entities.
